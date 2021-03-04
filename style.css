@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    background: #c5c5c5;
+    color: #1d2527;
+  }
+  
+  h1::after {
+    content: '';
+    display: block;
+    margin: 5px auto;
+    height: 2px;
+    width: 60%;
+    background-color: green;
+  }
